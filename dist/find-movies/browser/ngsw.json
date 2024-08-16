@@ -1,0 +1,85 @@
+{
+  "configVersion": 1,
+  "timestamp": 1723823895335,
+  "index": "/index.csr.html",
+  "assetGroups": [
+    {
+      "name": "app",
+      "installMode": "prefetch",
+      "updateMode": "prefetch",
+      "cacheQueryOptions": {
+        "ignoreVary": true
+      },
+      "urls": [
+        "/main-ATKTFAV4.js",
+        "/manifest.webmanifest",
+        "/polyfills-SCHOHYNV.js",
+        "/styles-7EIKUOS4.css"
+      ],
+      "patterns": []
+    },
+    {
+      "name": "assets",
+      "installMode": "lazy",
+      "updateMode": "prefetch",
+      "cacheQueryOptions": {
+        "ignoreVary": true
+      },
+      "urls": [
+        "/icons/android-launchericon-144-144.png",
+        "/icons/android-launchericon-192-192.png",
+        "/icons/android-launchericon-48-48.png",
+        "/icons/android-launchericon-512-512.png",
+        "/icons/android-launchericon-72-72.png",
+        "/icons/android-launchericon-96-96.png",
+        "/icons/star.svg",
+        "/imgs/arrow-icon-next.png",
+        "/imgs/arrow-icon-prev.png",
+        "/imgs/favico.png",
+        "/imgs/loader.png",
+        "/imgs/not-found.png",
+        "/imgs/star.svg"
+      ],
+      "patterns": []
+    }
+  ],
+  "dataGroups": [],
+  "hashTable": {
+    "/icons/android-launchericon-144-144.png": "d34987ef1e85aa87a9eeebd2b17e4ffb1e3b10bd",
+    "/icons/android-launchericon-192-192.png": "e3a26ceafb267070a26685b4fcd30bc7d7e6b7f9",
+    "/icons/android-launchericon-48-48.png": "2fa68ed38cc28e4577374af5506934fb7e477fd4",
+    "/icons/android-launchericon-512-512.png": "194a0ac04ecf4822f078049c401fc8b61324482f",
+    "/icons/android-launchericon-72-72.png": "a5b4eaa0944f0926dd8c0b828ba62046969f73aa",
+    "/icons/android-launchericon-96-96.png": "de0b64104aed9c2b01fe814120c411ebd52a71b5",
+    "/icons/star.svg": "722977c9029ab784d602322b59306475b71afade",
+    "/imgs/arrow-icon-next.png": "e7a251a37c6fb5b0fdbe10f058a0979314179c93",
+    "/imgs/arrow-icon-prev.png": "683c69dfd5a81f9540edede8313e758f260cce46",
+    "/imgs/favico.png": "800e8f1736869b413284d2959de1d0925522e266",
+    "/imgs/loader.png": "60d42663e4de17246c4df83c4cc424d2497da228",
+    "/imgs/not-found.png": "4f264166453a662642647da6a9926c1ab7d8e326",
+    "/imgs/star.svg": "722977c9029ab784d602322b59306475b71afade",
+    "/main-ATKTFAV4.js": "8ffc9737163edb69d6b31287e0a0ef0646eec26d",
+    "/manifest.webmanifest": "0d8c8626bcf3541c999fd81eeef604a4dec03f8a",
+    "/polyfills-SCHOHYNV.js": "d45c76c5960bab3ace7fd6d211b9579456241f8a",
+    "/styles-7EIKUOS4.css": "061fb77e9dfe48724e001b8885c7b5be75b3f1e4"
+  },
+  "navigationUrls": [
+    {
+      "positive": true,
+      "regex": "^\\/.*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^/]*\\.[^/]*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^/]*__[^/]*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^/]*__[^/]*\\/.*$"
+    }
+  ],
+  "navigationRequestStrategy": "performance"
+}
